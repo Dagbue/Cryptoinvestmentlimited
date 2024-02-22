@@ -61,7 +61,6 @@
       </div>
     </form>
   </div>
-
 </template>
 
 <script>
@@ -98,7 +97,6 @@ export default {
 
 
   },
-
   methods: {
     async update1() {
       await setDoc(doc(db, "Investment" ,this.SelectEmail ), {

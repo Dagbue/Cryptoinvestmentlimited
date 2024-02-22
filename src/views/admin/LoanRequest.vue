@@ -77,7 +77,6 @@ export default {
       this.history = _history;
     })
   },
-
   methods: {
     async update() {
       await setDoc(doc(db, this.SelectEmail, "USER"), {

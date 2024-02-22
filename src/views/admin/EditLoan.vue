@@ -79,7 +79,6 @@ export default {
 
 
   },
-
   methods: {
     async update1() {
       await setDoc(doc(db, "loans" ,this.SelectEmail ), {
